@@ -12,6 +12,7 @@
 		C000BFA02227929200F0D6A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C000BF9E2227929200F0D6A5 /* Main.storyboard */; };
 		C000BFA22227929400F0D6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C000BFA12227929400F0D6A5 /* Assets.xcassets */; };
 		C000BFA52227929400F0D6A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C000BFA32227929400F0D6A5 /* LaunchScreen.storyboard */; };
+		C000BFAD2227930B00F0D6A5 /* To square(root) or not to square(root).swift in Sources */ = {isa = PBXBuildFile; fileRef = C000BFAC2227930B00F0D6A5 /* To square(root) or not to square(root).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C000BFA12227929400F0D6A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C000BFA42227929400F0D6A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C000BFA62227929400F0D6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C000BFAC2227930B00F0D6A5 /* To square(root) or not to square(root).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "To square(root) or not to square(root).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C000BF9A2227929200F0D6A5 /* AppDelegate.swift */,
 				C000BF9C2227929200F0D6A5 /* ViewController.swift */,
+				C000BFAC2227930B00F0D6A5 /* To square(root) or not to square(root).swift */,
 				C000BF9E2227929200F0D6A5 /* Main.storyboard */,
 				C000BFA12227929400F0D6A5 /* Assets.xcassets */,
 				C000BFA32227929400F0D6A5 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C000BFAD2227930B00F0D6A5 /* To square(root) or not to square(root).swift in Sources */,
 				C000BF9D2227929200F0D6A5 /* ViewController.swift in Sources */,
 				C000BF9B2227929200F0D6A5 /* AppDelegate.swift in Sources */,
 			);
