@@ -18,5 +18,32 @@
 //
 //The input array should not be modified!
 
-let a = "b"
+import Foundation
 
+func squareOrSquareRoot(_ input: [Int]) -> [Int] {
+    var newArray = [Int]()
+    for num in input {
+        if Double(Int(sqrt(Double(num)))) == sqrt(Double(num)) {
+            newArray.append(Int(sqrt(Double(num))))
+        } else {
+            newArray.append(Int(num * num))
+        }
+    }
+    return newArray
+}
+
+// Best Practice & Clever
+func squareOrSquareRoot1(_ input: [Int]) -> [Int] {
+    return input.map { i in
+        let r = sqrt(Double(i))
+        return r.truncatingRemainder(dividingBy: 1).isZero ? Int(r) : i * i
+    }
+}
+
+/// Best Practice
+func squareOrSquareRoot2(_ input: [Int]) -> [Int] {
+    return input.map{
+        let root = (sqrt(Double($0)))
+        return root.truncatingRemainder(dividingBy: 1) == 0 ? Int(root) : $0 * $0
+    }
+}
