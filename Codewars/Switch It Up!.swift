@@ -32,6 +32,8 @@ func switchItUp(_ number: Int) -> String {
     }
 }
 
+
+// They say these are better, but, 
 //Clever
 //func switchItUp(_ number: Int) -> String {
 //    return ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"][number]

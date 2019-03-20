@@ -14,6 +14,7 @@
 		C000BFA52227929400F0D6A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C000BFA32227929400F0D6A5 /* LaunchScreen.storyboard */; };
 		C000BFAD2227930B00F0D6A5 /* To square(root) or not to square(root).swift in Sources */ = {isa = PBXBuildFile; fileRef = C000BFAC2227930B00F0D6A5 /* To square(root) or not to square(root).swift */; };
 		C02C9210222C74B600712ABC /* Switch It Up!.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02C920F222C74B600712ABC /* Switch It Up!.swift */; };
+		C04239352242B82B00E37E16 /* CalculateBMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04239342242B82B00E37E16 /* CalculateBMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C000BFA62227929400F0D6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C000BFAC2227930B00F0D6A5 /* To square(root) or not to square(root).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "To square(root) or not to square(root).swift"; sourceTree = "<group>"; };
 		C02C920F222C74B600712ABC /* Switch It Up!.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Switch It Up!.swift"; sourceTree = "<group>"; };
+		C04239342242B82B00E37E16 /* CalculateBMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateBMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,6 @@
 		C000BF8E2227929200F0D6A5 = {
 			isa = PBXGroup;
 			children = (
-				C02C920F222C74B600712ABC /* Switch It Up!.swift */,
 				C000BF992227929200F0D6A5 /* Codewars */,
 				C000BF982227929200F0D6A5 /* Products */,
 			);
@@ -61,7 +62,9 @@
 			children = (
 				C000BF9A2227929200F0D6A5 /* AppDelegate.swift */,
 				C000BF9C2227929200F0D6A5 /* ViewController.swift */,
+				C04239342242B82B00E37E16 /* CalculateBMI.swift */,
 				C000BFAC2227930B00F0D6A5 /* To square(root) or not to square(root).swift */,
+				C02C920F222C74B600712ABC /* Switch It Up!.swift */,
 				C000BF9E2227929200F0D6A5 /* Main.storyboard */,
 				C000BFA12227929400F0D6A5 /* Assets.xcassets */,
 				C000BFA32227929400F0D6A5 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				C000BFAD2227930B00F0D6A5 /* To square(root) or not to square(root).swift in Sources */,
 				C000BF9D2227929200F0D6A5 /* ViewController.swift in Sources */,
 				C000BF9B2227929200F0D6A5 /* AppDelegate.swift in Sources */,
+				C04239352242B82B00E37E16 /* CalculateBMI.swift in Sources */,
 				C02C9210222C74B600712ABC /* Switch It Up!.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
